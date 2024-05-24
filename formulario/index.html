@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        <table>
+            <tr>
+              <td> Ingrese el ususario (*)</td>
+              <td> <input type="text" name="usuario" id="usuario" value=""></td>
+            </tr>
+
+             <tr>
+                <td> Ingrese el nombre (*)</td>
+                <td> <input type="text" name="nombre" id="nombre" value=""></td>
+            </tr>
+
+             <tr>
+                <td> Ingrese el apellido (*)</td>
+                <td> <input type="text" name="apellido" id="apellido"  value=""></td>
+             </tr>
+
+             <tr>
+                <td> Ingrese el correo electronico (*)</td>
+                <td> <input type="email" name="email" id="email"  value=""></td>
+              </tr>
+
+              <tr>
+                <td> Ingrese el password (*)</td>
+                <td> <input type="password" name="password" id="password" value=""></td>
+              </tr>
+
+              <tr>
+                <td> Ingrese el password (*)</td>
+                <td> <input type="password1" name="password1" id="password1" value=""></td>
+              </tr>
+
+                <tr>
+                    <td> Seleccione sus hobbies (*)</td>
+                    <td>
+                      <input type="checkbox" name="hobby"  value="programar">programar
+                      <input type="checkbox" name="hobby"  value="Deporte"> Deporte <br>
+                      <input type="checkbox" name="hobby"  value="Meditar"> Meditar 
+                      <input type="checkbox" name="hobby"  value="Cine"> Cine <br>
+                      <input type="checkbox" name="hobby"  value="Leer">Leer  
+                      <input type="checkbox" name="hobby"  value="Videojuegos">Videos Juegos 
+                    </td>
+                 </tr>
+
+
+            <tr>
+                <td> Pais (*)</td>
+                <td>
+                 <select name="pais" id="pais">
+                     <option value="">......</option>
+                     <option value="argentina">Argentina</option>
+                     <option value="brasil">Brasil</option>
+                     <option value="Colombia">Colombia</option>
+                     <option value="ecuador">Ecuador</option>
+                     <option value="venezuale">Venezuela</option>
+                  </select> 
+                </td>
+            </tr>
+
+             <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="sexo" value="m">M
+                    <input type="radio" name="sexo" value="f">F
+                    <input type="radio" name="sexo" value="n">N
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" name="boton" id="boton" onclick="formulario()">Crear usuario</button>
+                </td>
+                <td>
+                    <button type="reset" name="botonR">Cancelar</button>
+                </td>
+            </tr>
+        </table>
+        <p> Loa campos con asterisco (*) son obligatorios</p>
+    </form>
+
+    <script src="formulario.js"></script>
+</body>
+</html>
